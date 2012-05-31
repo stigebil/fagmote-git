@@ -234,7 +234,7 @@ Lister opp url på remote branch.
 #### git push
 Pusher alle commits til remote reopsitories
 
-#### git pull origin master
+#### git pull
 Henter ned endring fra kilden for en ønsket branch. Dette gjør først git fetch for å hente koden ned fra remote og så en git merge inn i aktiv branch. For å kjøre denne så må all koden din være sjekket inn. Alternativt kan man dumpe den til stash og så kjøre git stash apply.
 
 #### git fetch origin
