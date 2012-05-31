@@ -1,4 +1,4 @@
-test-workshop
+fagmøte-git
 =============
 * Git er er distribuert versjonskontrollsystem for kildekode. Istedet for en sentralisert server, så kan man ha flere repositorier, som man kan hente ned kildekoden fra. I motsetning til subversjon, som kun har en sentralisert server. Dette gjør det veldig nyttig i open source prosjekter, hvor hvem som helst kan lage sin egen fork av et prosjekt, og eieren/løytnaten kan hente de endringene de vil fra tilgjenglige fork, og merge dette inn i hovedprosjektet. Man kan fortsatt velge å kjøre med en sentralisert server struktur, slik at alle sjekker inn i samme remote server.
 
