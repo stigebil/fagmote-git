@@ -197,8 +197,6 @@ Part 8 - Lokal branching with rebase
 
 Hver gang vi har gjort en merge nå, så har vi lagd en fork i history. Med rebase, så kan man merge sammen kode, uten at det lages en fork i historien. Rebase "replays commits" over din egen kode, slik at man får en lineær historie.
 
-http://git-scm.com/book/en/Git-Branching-Rebasing
-
 Generel regel er at du ikke skal kjøre rebase for kode som er lastet opp til et public repository, siden det kan skape problemer for de andre på prosjektet.
 
 #### 1. lag en ny branch, gjør en endring til nyfil.txt
@@ -218,6 +216,8 @@ Generel regel er at du ikke skal kjøre rebase for kode som er lastet opp til et
 #### 4. Rebase ditt arbeid på toppen av master, legg merke til at det ikke lenger er noen fork
 	git rebase master
 	git l working master
+
+http://git-scm.com/book/en/Git-Branching-Rebasing
 
 
 Remote Branches
