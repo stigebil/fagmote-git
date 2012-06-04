@@ -171,6 +171,7 @@ Save/quit
 
 Denne viser hva "HEAD" var X commits siden
 Finn 'commit (amend): Updated nyfil.txt'
+
 	//Kjør denne hvor X er nummeret som stod siden commit (ammend)
 	git reset --hard HEAD@{X}
 
