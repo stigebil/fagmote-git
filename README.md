@@ -13,7 +13,7 @@ fagmøte-git
 Klon et prosjekt fra en remote server
 =====================================
 
-	git clone git@github.com:stigebil/fagmote-git.git
+	git clone git://github.com/stigebil/fagmote-git.git
 	cd fagmote-git
 
 Konfigurer git
